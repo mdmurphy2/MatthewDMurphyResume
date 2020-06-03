@@ -1,0 +1,64 @@
+.About {
+    margin-top: 100px;
+    background-color: #1f2833;
+    height: 850px;
+}
+
+.AboutMain{
+    padding-top: 50px;
+}
+.AboutContent {
+    padding-left: 20px;
+    display: inline-block;
+}
+.AboutPicture {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+}
+.AboutHeader {
+    padding-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: #66fcf1;
+}
+
+.AboutInfoMain {
+    width: 1000px;
+    padding-left: 70px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    font-size: 16px;
+    color: #C5C6C7;
+}
+.AboutInfo{
+    width: 1000px;
+    padding-left: 70px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: #C5C6C7;
+}
+
+.SkillsMain {
+    padding-top: 50px;
+    padding-left: 50px;
+    display: flex;
+}
+
+.ListHeader{
+    font-size: 20px;
+    color: #66fcf1;
+
+}
+
+.Skills {
+    width: 32%;
+    padding-left: 70px;
+    color: #C5C6C7;
+}
+
+.List{
+    width: 200px;
+    list-style-type: square;
+}
+
