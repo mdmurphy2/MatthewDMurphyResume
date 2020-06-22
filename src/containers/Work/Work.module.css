@@ -1,4 +1,114 @@
 .Work {
     background-color: #0B0C10;
-    height: 850px;
+    height: 1400px;
 }
+
+.EducationMain {
+    padding-top: 50px;
+}
+
+.WorkMain {
+    padding-top: 250px;
+}
+
+.EducationWrapper {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.WorkWrapper {
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.WorkHeader {
+    padding-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: #66fcf1;
+}
+
+.EducationHeader {
+    padding-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    color: #66fcf1;
+    
+}
+
+.EducationContent {
+    padding-top: 50px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.WorkContent {
+    padding-top: 50px;
+}
+
+.EducationTitle {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: #FC4445;
+}
+
+.WorkTitle {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    color: #FC4445;
+}
+
+.EducationSpan {
+    text-align: center;
+    font-size: 14px;
+    color: #C5C6C7;
+}
+
+.WorkSpan {
+    text-align: center;
+    font-size: 14px;
+    color: #C5C6C7;
+}
+
+.Image {
+    display: inline-block;
+    float: left;
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
+    margin-right: 150px;
+}
+
+
+.CourseworkContainer {
+    display: inline-block;
+    float: left;
+    margin-left: -40px;
+}
+
+
+.Coursework {
+    color: #66fcf1;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.List {
+    list-style-type: square;
+    color: #C5C6C7;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.WorkExperience {
+    color: #C5C6C7;
+    width: 800px;
+    overflow-wrap: break-word;
+    margin-bottom: 30px;
+}
+

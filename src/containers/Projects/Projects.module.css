@@ -1,0 +1,19 @@
+.Projects {
+    background-color: #1f2833;
+    height: 1700px;
+}
+
+.Header {
+    padding-top: 60px;
+    font-size: 50px;
+    text-align: center;
+    color: #66fcf1;
+}
+
+.ProjectWrapper {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+

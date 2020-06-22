@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import styles from './About.module.css';
 
-import AboutPicture from '../../logo.svg';
+import AboutPicture from '../../MattPicture.jpg';
 
 
 class About extends Component {
@@ -16,7 +16,7 @@ class About extends Component {
                     <div className={styles.AboutContent}>
                         <div className={styles.AboutInfoMain}>Hi. I am Matthew Murphy, and I am a Software engineer with a passion for front end development. I am a Computer Science student currently attending the University of Wisconsin Madison, and I will be graduating May of 2021.</div>
                         <div className={styles.AboutInfo}></div>
-                        <div className={styles.AboutInfo}>In my free time I enjoy playing hockey, soccer, and going snowboarding. I also like to play and develop video games. Some of the games I have created can be seen below.</div>
+                        <div className={styles.AboutInfo}>In my free time I enjoy playing hockey, soccer, and competitive pinball. I also like to play and develop video games. Some of the games I have created can be seen below.</div>
                     </div>
                     <img src={AboutPicture} className={styles.AboutPicture}></img>
                    </div>

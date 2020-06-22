@@ -1,0 +1,41 @@
+.ImageContainer {
+    position: relative;
+    z-index: 1;
+    width: 350px;
+    height: 204px;
+    float: left;
+}
+.ImageContainer:hover .ImageOverlay {
+    opacity: .85;
+    cursor: pointer;
+  }
+
+.Image {
+    display: block;
+    margin-left: 40px;
+    height: 200px;
+    width: 350px;
+    margin-right: 150px;
+    border: 2px solid #66fcf1;
+}
+
+.ImageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 40px;
+    right: 0;
+    height: 204px;
+    width: 354px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0b0c10;
+}
+
+
+.OverlayText {
+    color: #66fcf1;
+    text-align: center;
+    margin: 25%;
+    opacity: 1;
+}
