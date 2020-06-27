@@ -12,7 +12,7 @@ class Projects extends Component {
 
         const projects = [
             { id: '1', title: 'Resume Website', description: 'This website you are viewing was made using React, HTML, CSS, and JS.\n It is my first ever website developed and designed completely by myself.', image: 'Website'},
-            { id: '2', title: 'Zurvive', description: 'This is a 3D Zumbie survival game I created using C# and Unity.\n This was my second ever game made, and was made alone over the span of a few months.', image: 'Zurvive'},
+            { id: '2', title: 'Zurvive', description: 'This is a 3D Zumbie survival game I created using C# and Unity.\n This was my second ever game made, and was made alone over the span of a few months. This project taught me alot about unity and how to create a game.', image: 'Zurvive'},
             { id: '3', title: 'Chicken Dodger', description: 'This was my first ever game I created in Unity. It is a simple game where you move a pig left to right on the screen in order to dodge the falling chickens.', image: 'Chicken'}
 
 
