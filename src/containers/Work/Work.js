@@ -36,8 +36,10 @@ class Work extends Component {
                         <div className={styles.WorkSpan}>July 2019 - December 2019</div>
                         <div className={styles.WorkContent}>
                             <img src={MatrixCare} className={styles.Image}/>
-                            <div className={styles.WorkExperience}>Created and maintained software for data manipulation and analysis</div>
-                            <div className={styles.WorkExperience}>Served as lab IT expert by providing assistance with computer related tasks</div>
+                            <div className={styles.Experience}>Experience</div>
+                            <div className={styles.WorkExperience}>Develeoped features on a large web app using HTML, CSS, JS, AngularJS, and Angular while working closely with a UX designer</div>
+                            <div className={styles.WorkExperience}>Researched and designed an Alexa app using NodeJS and Alexa Developer Console</div>
+
                         </div>
                     </div>
                     <div className={styles.WorkWrapper}>
@@ -46,8 +48,10 @@ class Work extends Component {
                         <div className={styles.WorkSpan}>October 2018 - July 2019</div>
                         <div className={styles.WorkContent}>
                             <img src={Wisconsin} className={styles.Image}/>
-                            <div className={styles.WorkExperience}>Develeoped features on a large web app using HTML, CSS, JS, AngularJS, and Angular while working closely with a UX designer</div>
-                            <div className={styles.WorkExperience}>Researched and designed an Alexa app using NodeJS and Alexa Developer Console</div>
+                            <div className={styles.Experience}>Experience</div>
+                            <div className={styles.WorkExperience}>Created and maintained software for data manipulation and analysis</div>
+                            <div className={styles.WorkExperience}>Served as lab IT expert by providing assistance with computer related tasks</div>
+                            
                         </div>
                     </div>
                 </div>

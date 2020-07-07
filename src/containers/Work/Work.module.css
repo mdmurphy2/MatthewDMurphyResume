@@ -112,3 +112,106 @@
     margin-bottom: 30px;
 }
 
+.Experience {
+    color: #66fcf1;
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .Image {
+        display: block;
+        margin-right: 50px;
+    }
+
+    .EducationTitle {
+        text-align: left;
+        padding-left: 8%;
+    }
+    .EducationSpan {
+        text-align: left;
+        padding-left: 8%;
+    }
+    .WorkExperience {
+        width: 85%;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .WorkTitle {
+        text-align: left;
+        padding-left: 8%;
+    }
+    .WorkSpan {
+        text-align: left;
+        padding-left: 8%;
+    }
+    .WorkExperience {
+        width: 70%;
+    }
+}
+
+@media (max-width: 550px) {
+    .Work{
+        height: 1600px;
+    }
+    .Image {
+        display: none;
+    }
+    .CourseworkContainer {
+       margin-left: 5%;
+    }
+    .EducationTitle {
+        font-size: 16px;
+        padding-left: 5%;
+    }
+    .EducationSpan {
+        font-size: 12px;
+        padding-left: 5%;
+    }
+    .WorkExperience {
+        margin-left: 5%;
+        width: 40%;
+    }
+    .WorkTitle {
+        font-size: 20px;
+        padding-left: 5%;
+    }
+    .WorkSpan {
+        font-size: 12px;
+        padding-left: 5%;
+    }
+    .Experience {
+        display: block;
+        padding-left: 5%;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 374px) {
+    .CourseworkContainer {
+       margin-left: 1%;
+    }
+    .EducationTitle {
+        font-size: 16px;
+        padding-left: 1%;
+        font-size: 14px;
+    }
+    .EducationSpan {
+        font-size: 12px;
+        padding-left: 1%;
+        font-size: 14px;
+    }
+    .WorkTitle {
+        font-size: 16px;
+        padding-left: 1%;
+        font-size: 14px;
+    }
+    .WorkSpan {
+        font-size: 12px;
+        padding-left: 1%;
+        font-size: 14px;
+    }
+}
+
+
