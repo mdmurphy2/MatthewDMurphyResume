@@ -1,6 +1,6 @@
 .Work {
     background-color: #0B0C10;
-    height: 1400px;
+    height: 1700px;
 }
 
 .EducationMain {
@@ -81,6 +81,9 @@
     width: 150px;
     height: 150px;
     margin-right: 150px;
+    border-radius: 25px;
+    background: #66fcf1;
+    padding: 4px;
 }
 
 
@@ -153,7 +156,7 @@
 
 @media (max-width: 550px) {
     .Work{
-        height: 1600px;
+        height: 1900px;
     }
     .Image {
         display: none;

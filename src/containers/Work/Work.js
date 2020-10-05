@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import styles from './Work.module.css';
 import Wisconsin from '../../WisconsinLogo.png';
 import MatrixCare from '../../MatrixCareLogo.png';
+import FieldDay from '../../FieldDay.jpg';
 
 
 class Work extends Component {
@@ -31,6 +32,17 @@ class Work extends Component {
                 <div className={styles.WorkMain}>
                     <div className={styles.WorkHeader}>Work Experience</div>
                     <div className={styles.WorkWrapper}>
+                        <div className={styles.WorkTitle}>Field Day Lab</div>
+                        <div className={styles.WorkSpan}>Student Unity Developer</div>
+                        <div className={styles.WorkSpan}>August 2020 - Present</div>
+                        <div className={styles.WorkContent}>
+                            <img src={FieldDay} className={styles.Image}/>
+                            <div className={styles.Experience}>Experience</div>
+                            <div className={styles.WorkExperience}>Worked in Unity and C# developing features for an upcoming game</div>
+                            <div className={styles.WorkExperience}>Collaborated with a lead game designer, and lead game developer to produce unique features</div>
+                        </div>
+                    </div>
+                    <div className={styles.WorkWrapper}>
                         <div className={styles.WorkTitle}>MatrixCare</div>
                         <div className={styles.WorkSpan}>Software Engineer Internship</div>
                         <div className={styles.WorkSpan}>July 2019 - December 2019</div>
@@ -39,7 +51,6 @@ class Work extends Component {
                             <div className={styles.Experience}>Experience</div>
                             <div className={styles.WorkExperience}>Develeoped features on a large web app using HTML, CSS, JS, AngularJS, and Angular while working closely with a UX designer</div>
                             <div className={styles.WorkExperience}>Researched and designed an Alexa app using NodeJS and Alexa Developer Console</div>
-
                         </div>
                     </div>
                     <div className={styles.WorkWrapper}>
