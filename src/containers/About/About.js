@@ -49,7 +49,7 @@ class About extends Component {
                         </ul>
                     </div>
                     <div className={styles.Skills}>
-                        <div className={styles.ListHeader}>Other Skills</div>
+                        <div className={styles.ListHeader}>Other&nbsp;Skills</div>
                         <ul className={styles.List}>
                             <li>Algorithms</li>
                             <li>Operating Systems</li>
