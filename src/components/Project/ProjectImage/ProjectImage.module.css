@@ -12,10 +12,8 @@
 
 .Image {
     display: block;
-    margin-left: 40px;
     height: 200px;
     width: 350px;
-    margin-right: 150px;
     border: 2px solid #66fcf1;
 }
 
@@ -23,7 +21,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40px;
+    left: 0px;
     right: 0;
     height: 204px;
     width: 354px;
@@ -39,3 +37,22 @@
     margin: 25%;
     opacity: 1;
 }
+
+@media (max-width: 1300px) {
+    .Image {
+        margin-left: -10vw;
+    }
+    .ImageOverlay{
+        margin-left: -10vw;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Image {
+        margin-left: 0;
+    }
+    .ImageOverlay{
+        margin-left: 0;
+    }
+}
+

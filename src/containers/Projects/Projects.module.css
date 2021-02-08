@@ -1,6 +1,7 @@
 .Projects {
     background-color: #1f2833;
-    height: 1700px;
+    height: 1400px;
+    width: auto;
 }
 
 .Header {
@@ -11,9 +12,32 @@
 }
 
 .ProjectWrapper {
-    width: 1200px;
+    width: 100vw;
     margin-right: auto;
     margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+  .ProjectWrapper {
+      width: 90vw;
+  }
+  .Projects {
+    height: 1900px;
+}
+}
+
+@media (max-width: 700px) {
+    
+}
+
+@media (max-width: 550px) {
+    .Projects {
+        height: 2100px;
+    }
+}
+
+@media (max-width: 374px) {
+  
 }
 
 

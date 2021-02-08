@@ -12,13 +12,13 @@
 }
 
 .EducationWrapper {
-    width: 800px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
 
 .WorkWrapper {
-    width: 800px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -42,6 +42,7 @@
     padding-top: 50px;
     text-align: center;
     white-space: nowrap;
+    width: 100%;
 }
 
 .WorkContent {
@@ -110,9 +111,10 @@
 
 .WorkExperience {
     color: #C5C6C7;
-    width: 800px;
+    width: 85%;
     overflow-wrap: break-word;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .Experience {
@@ -124,6 +126,9 @@
     .Image {
         display: block;
         margin-right: 50px;
+    }
+    .Work{
+        height: 1800px;
     }
 
     .EducationTitle {
@@ -150,13 +155,13 @@
         padding-left: 8%;
     }
     .WorkExperience {
-        width: 70%;
+        width: 95%;
     }
 }
 
 @media (max-width: 550px) {
     .Work{
-        height: 1900px;
+        height: 1700px;
     }
     .Image {
         display: none;
@@ -174,7 +179,8 @@
     }
     .WorkExperience {
         margin-left: 5%;
-        width: 40%;
+        width: 85%;
+        text-align: justify;
     }
     .WorkTitle {
         font-size: 20px;
