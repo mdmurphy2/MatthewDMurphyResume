@@ -1,6 +1,6 @@
 .Projects {
     background-color: #1f2833;
-    height: 1400px;
+    height: 1800px;
     width: auto;
 }
 
@@ -22,7 +22,7 @@
       width: 90vw;
   }
   .Projects {
-    height: 1900px;
+    height: 2500px;
 }
 }
 
@@ -32,7 +32,7 @@
 
 @media (max-width: 550px) {
     .Projects {
-        height: 2100px;
+        height: 2800px;
     }
 }
 

@@ -18,7 +18,7 @@ class About extends Component {
                         <div className={styles.AboutInfo}></div>
                         <div className={styles.AboutInfo}>In my free time I enjoy playing hockey, soccer, and competitive pinball. I also like to play and develop video games. Some of the games I have created can be seen below.</div>
                     </div>
-                    <img src={AboutPicture} className={styles.AboutPicture}></img>
+                    <img src={AboutPicture} alt="About"className={styles.AboutPicture}></img>
                    </div>
 
                 <div>

@@ -8,7 +8,6 @@ class Project extends Component {
 
     render() {
 
-        console.log(this.props.image);
 
         return(
             <div className={styles.Project}>

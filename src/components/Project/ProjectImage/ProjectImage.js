@@ -6,6 +6,7 @@ import styles from './ProjectImage.module.css';
 import Website from '../../../Website.png';
 import Zurvive from '../../../Zurvive.png';
 import Chicken from '../../../Chicken.png';
+import ppmp from '../../../ppmp.png';
 
 
 
@@ -15,7 +16,6 @@ class ProjectImage extends Component {
     render() {
 
         let image = null;
-        console.log(this.props.image);
         
 
         switch(this.props.image) {
@@ -23,7 +23,7 @@ class ProjectImage extends Component {
                 image = <div className={styles.ImageContainer}>
                             <Route path='/git' component={() => window.location = 'https://github.com/mdmurphy2/MatthewDMurphyResume'}/>
                             <a href="/git" target="_blank">
-                            <img src={Website} alt='Website Image' className={styles.Image}/>
+                            <i src={Website} alt='Website Image' className={styles.Image}/>
                             <div className={styles.ImageOverlay}>
                                 <div className={styles.OverlayText}>View Source Code</div>
                             </div>
@@ -34,7 +34,7 @@ class ProjectImage extends Component {
                 image = <div className={styles.ImageContainer}>
                             <Route path='/zurvive' component={() => window.location = 'https://thesubwild.itch.io/zurvive'}/>
                             <a href="/zurvive" target="_blank">
-                            <img src={Zurvive} alt='Zurvive Image' className={styles.Image}/>
+                            <i src={Zurvive} alt='Zurvive Image' className={styles.Image}/>
                             <div className={styles.ImageOverlay}>
                                 <div className={styles.OverlayText}>Click to play!</div>
                             </div>
@@ -45,13 +45,24 @@ class ProjectImage extends Component {
                 image = <div className={styles.ImageContainer}>
                             <Route path='/chicken' component={() => window.location = 'https://thesubwild.itch.io/chicken-dodger'}/>
                             <a href="/chicken" target="_blank">
-                            <img src={Chicken} alt='Chicken Dodger Image' className={styles.Image}/>
+                            <i src={Chicken} alt='Chicken Dodger Image' className={styles.Image}/>
                             <div className={styles.ImageOverlay}>
                                 <div className={styles.OverlayText}>Click to play!</div>
                             </div>
                             </a>
                         </div>  
                 break;
+                case ( 'ppmp' ):
+                    image = <div className={styles.ImageContainer}>
+                                <Route path='/ppmp' component={() => window.location = 'https://github.com/snoberger/meal-prep'}/>
+                                <a href="/ppmp" target="_blank">
+                                <i src={ppmp} alt='Pre-Prep Meal Prep' className={styles.Image}/>
+                                <div className={styles.ImageOverlay}>
+                                    <div className={styles.OverlayText}>Click to play!</div>
+                                </div>
+                                </a>
+                            </div>  
+                    break;
             default:
                 image = null;
                 break;
