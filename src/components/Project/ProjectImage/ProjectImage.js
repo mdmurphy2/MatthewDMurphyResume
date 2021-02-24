@@ -23,7 +23,7 @@ class ProjectImage extends Component {
                 image = <div className={styles.ImageContainer}>
                             <Route path='/git' component={() => window.location = 'https://github.com/mdmurphy2/MatthewDMurphyResume'}/>
                             <a href="/git" target="_blank">
-                            <i src={Website} alt='Website Image' className={styles.Image}/>
+                            <img src={Website} alt='Website' className={styles.Image}/>
                             <div className={styles.ImageOverlay}>
                                 <div className={styles.OverlayText}>View Source Code</div>
                             </div>
@@ -34,7 +34,7 @@ class ProjectImage extends Component {
                 image = <div className={styles.ImageContainer}>
                             <Route path='/zurvive' component={() => window.location = 'https://thesubwild.itch.io/zurvive'}/>
                             <a href="/zurvive" target="_blank">
-                            <i src={Zurvive} alt='Zurvive Image' className={styles.Image}/>
+                            <img src={Zurvive} alt='Zurvive' className={styles.Image}/>
                             <div className={styles.ImageOverlay}>
                                 <div className={styles.OverlayText}>Click to play!</div>
                             </div>
@@ -45,7 +45,7 @@ class ProjectImage extends Component {
                 image = <div className={styles.ImageContainer}>
                             <Route path='/chicken' component={() => window.location = 'https://thesubwild.itch.io/chicken-dodger'}/>
                             <a href="/chicken" target="_blank">
-                            <i src={Chicken} alt='Chicken Dodger Image' className={styles.Image}/>
+                            <img src={Chicken} alt='Chicken Dodger' className={styles.Image}/>
                             <div className={styles.ImageOverlay}>
                                 <div className={styles.OverlayText}>Click to play!</div>
                             </div>
@@ -56,7 +56,7 @@ class ProjectImage extends Component {
                     image = <div className={styles.ImageContainer}>
                                 <Route path='/ppmp' component={() => window.location = 'https://github.com/snoberger/meal-prep'}/>
                                 <a href="/ppmp" target="_blank">
-                                <i src={ppmp} alt='Pre-Prep Meal Prep' className={styles.Image}/>
+                                <img src={ppmp} alt='Pre-Prep Meal Prep' className={styles.Image}/>
                                 <div className={styles.ImageOverlay}>
                                     <div className={styles.OverlayText}>Click to play!</div>
                                 </div>
