@@ -30,6 +30,7 @@ class About extends Component {
                             <li>Java</li>
                             <li>Python</li>
                             <li>C</li>
+                            <li>C++</li>
                             <li>C#</li>
                             <li>HTML</li>
                             <li>JavaScript</li>

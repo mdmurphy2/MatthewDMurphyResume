@@ -58,7 +58,7 @@ class ProjectImage extends Component {
                                 <a href="/ppmp" target="_blank">
                                 <img src={ppmp} alt='Pre-Prep Meal Prep' className={styles.Image}/>
                                 <div className={styles.ImageOverlay}>
-                                    <div className={styles.OverlayText}>Click to play!</div>
+                                    <div className={styles.OverlayText}>View Source Code</div>
                                 </div>
                                 </a>
                             </div>  
