@@ -1,6 +1,6 @@
 .Work {
     background-color: #0B0C10;
-    height: 1700px;
+    height: 2100px;
 }
 
 .EducationMain {
@@ -137,7 +137,7 @@
         margin-left: 10px;
     }
     .Work{
-        height: 1800px;
+        height: 2200px;
     }
 
     .EducationTitle {
@@ -173,7 +173,7 @@
 
 @media (max-width: 550px) {
     .Work{
-        height: 2000px;
+        height: 2300px;
     }
     .Image {
         display: none;

@@ -4,6 +4,7 @@ import styles from './Work.module.css';
 import Wisconsin from '../../WisconsinLogo.png';
 import MatrixCare from '../../MatrixCareLogo.png';
 import FieldDay from '../../FieldDay.jpg';
+import PerBlue from '../../PerBlue.png'
 
 
 class Work extends Component {
@@ -24,6 +25,7 @@ class Work extends Component {
                                     <li>Data Structures</li>
                                     <li>Algorithms</li>
                                     <li>Operating Systems</li>
+                                    <li>Computer Graphics</li>
                                 </ul>
                             </div>
                         </div>
@@ -32,9 +34,20 @@ class Work extends Component {
                 <div className={styles.WorkMain}>
                     <div className={styles.WorkHeader}>Work Experience</div>
                     <div className={styles.WorkWrapper}>
+                        <div className={styles.WorkTitle}>PerBlue</div>
+                        <div className={styles.WorkSpan}>Software Developer Intern</div>
+                        <div className={styles.WorkSpan}>May 2021 - Present</div>
+                        <div className={styles.WorkContent}>
+                            <img src={PerBlue} alt="Work" className={styles.Image}/>
+                            <div className={styles.Experience}>Experience</div>
+                            <div className={styles.WorkExperience}>Develop front end features for a soft launched mobile game using Unity and C#</div>
+                            <div className={styles.WorkExperience}>Work closely with a small team to design engaging UI visuals </div>
+                        </div>
+                    </div>
+                    <div className={styles.WorkWrapper}>
                         <div className={styles.WorkTitle}>Field Day Lab</div>
                         <div className={styles.WorkSpan}>Student Unity Developer</div>
-                        <div className={styles.WorkSpan}>August 2020 - Present</div>
+                        <div className={styles.WorkSpan}>August 2020 - May 2021</div>
                         <div className={styles.WorkContent}>
                             <img src={FieldDay} alt="Work" className={styles.Image}/>
                             <div className={styles.Experience}>Experience</div>
